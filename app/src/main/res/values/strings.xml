@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ATM</string>
+    <string name="titre_liste_clients">Liste des Clients</string>
+    <string name="titre_liste_cheques">Liste des Comptes Chèque</string>
+    <string name="titre_liste_epargnes">Liste des Comptes Épargne</string>
+    <string name="titre_paiement">Paiement des intérêts: </string>
+
+    <string name="btn_admin_interets">PAIEMENT DES INTÉRÊTS</string>
+    <string name="btn_admin_cheques">COMPTES CHÈQUES</string>
+    <string name="btn_admin_epargnes">COMPTES ÉPARGNES</string>
+    <string name="btn_admin_clients">LISTE DES CLIENTS</string>
+    <string name="btn_paiement_interets">PAYER INTÉRÊTS</string>
+    <string name="btn_logout">DÉCONNEXION</string>
+    <string name="btn_annuler">ANNULER</string>
+    <string name="btn_retour">RETOUR</string>
+
+    <string name="prenom_client">Prénom du client: </string>
+    <string name="nom_client">Nom du client: </string>
+    <string name="nombre_clients">Nombre de clients: </string>
+    <string name="nombre_comptes">Nombre de comptes: </string>
+    <string name="nombre_comptes_epargnes">Nombre de comptes épargnes: </string>
+    <string name="numero_compte">Numéro du compte: </string>
+    <string name="solde_compte">Solde du compte: </string>
+
+    <string name="sommaire_comptes_epargnes">Les comptes épargnes cumulent un total de </string>
+    <string name="sommaire_interets">Payer les intérêts de ces comptes au taux en vigueur coûtera à la banque </string>
+    <string name="demande_payer_interets">Souhaitez-vous payer les intérêts sur ces comptes?  </string>
+
+    <string name="texte_virement">Sélectionnez la source du virement</string>
+</resources>

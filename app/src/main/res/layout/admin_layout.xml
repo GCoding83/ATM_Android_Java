@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="-366dp">
+
+        <Button
+            android:id="@+id/btnInterets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="lancerInterets"
+            android:text="@string/btn_admin_interets" />
+
+        <Button
+            android:id="@+id/btnCheques"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="lancerCheques"
+            android:text="@string/btn_admin_cheques" />
+
+        <Button
+            android:id="@+id/btnEpargnes"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="lancerEpargnes"
+            android:text="@string/btn_admin_epargnes" />
+
+        <Button
+            android:id="@+id/btnClients"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="lancerClients"
+            android:text="@string/btn_admin_clients" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:onClick="deconnecterAdmin"
+            android:text="@string/btn_logout" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
